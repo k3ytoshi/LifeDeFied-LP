@@ -1,0 +1,42 @@
+@import "../../scss/utils";
+
+.Slogan {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.Slogan-title {
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 64px;
+  line-height: 83px;
+  color: $darkest;
+
+  @include sm {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+.Slogan-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Page-down {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 70px;
+  z-index: 2;
+
+  @include sm {
+    display: none;
+  }
+}
