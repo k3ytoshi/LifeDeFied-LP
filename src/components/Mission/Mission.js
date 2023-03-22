@@ -25,14 +25,11 @@ function Mission() {
 
       <Container className="Container-flex" clipped={false}>
         <Banner
-          text="Tokenize Your Assets"
+          text="About us"
           info={
             <>
-              LifeDeFied offers the capability to tokenize physical or digital assets 
-              <br /><br />
-               
-              <br /><br />
-             Users pay for what they use, and owners profit from one-off transactions during downtime or new revenue streams.
+              LifeDeFied is the first Decentralized Security as a Service (DSaaS) platform offering a personal blockchain security platform that provides users with a variety of features to help manage their digital assets and identity securely.
+          
             </>
           }
           cover="about"
@@ -45,7 +42,7 @@ function Mission() {
             <div className="Edge-content-start">
             </div>
             <div className="Edge-content-end">
-              <div className="Edge-pagination color-grey">02 / 07</div>
+              <div className="Edge-pagination color-grey">02 / 09</div>
               <div className="Edge-pagination-icon" onClick={() => events.navigate(3)}>
                 <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#31AD94" />
               </div>

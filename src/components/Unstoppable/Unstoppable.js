@@ -24,12 +24,10 @@ function Unstoppable() {
 
       <Container className="Container-flex" clipped={false}>
         <Banner
-          text="Create Personal Blockchains"
+          text="Personal Blockchains"
           info={
             <>
-              App and desktop platform launching in Q2 2023.
-              <br /><br />
-              Sign up through the onboarding form below to gain early access and receive updates. 
+              Explore the flexibility of LifeDeFied's blockchain technology, offering both public and private blockchain networks for individuals, businesses, and governments.
             </>
           }
           cover="network"
@@ -42,7 +40,7 @@ function Unstoppable() {
             <div className="Edge-content-start">
             </div>
             <div className="Edge-content-end">
-              <div className="Edge-pagination color-grey">06 / 07</div>
+              <div className="Edge-pagination color-grey">06 / 09</div>
               <div className="Edge-pagination-icon sm-svg-green" onClick={() => events.navigate(7)}>
                 <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#31AD94" />
               </div>

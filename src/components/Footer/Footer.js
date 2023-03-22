@@ -20,7 +20,7 @@ class Footer extends React.Component {
               />
               <div className=""> Copyright &copy; 2023</div>
             </Link>
-            <a href="mailto:info@gym2gym.com">info@gym2gym.com</a>
+            <a href="mailto:info@gym2gym.com">info@lifedefied.com</a>
           </div>
         </Container>
       </header>

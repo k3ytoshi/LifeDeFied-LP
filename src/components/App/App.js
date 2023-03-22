@@ -38,27 +38,27 @@ class App extends React.Component {
           <Home />
         </div>
         <div id="page-2">
-          <Mission /> About
+          <Mission /> 
         </div>
         <div id="page-3">
-          <Academy /> Assets
+          <Academy /> 
         </div>
-        <div id="page-4"> Staking
+        <div id="page-4">
           <Code /> 
         </div>
-        <div id="page-5"> Market
+        <div id="page-5"> 
           <Trainer /> 
         </div>
-        <div id="page-6"> Networks
+        <div id="page-6">
           <Unstoppable /> 
         </div>
-        <div id="page-7"> Identity
+        <div id="page-7"> 
           <Identity />
         </div>
-        <div id="page-8"> Product
+        <div id="page-8">
           <Product />
         </div>     
-        <div id="page-9"> Contact
+        <div id="page-9">
           <Contact />
         </div>                
         <div id=""> 

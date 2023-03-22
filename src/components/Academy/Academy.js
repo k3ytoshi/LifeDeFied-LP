@@ -23,12 +23,10 @@ function Academy() {
 
       <Container className="Container-flex" clipped={false}>
       <Banner
-          text="Tokenize Your Assets"
+         text="Asset Tokenization"
           info={
             <>
-            Users have the ability to work out as much or little as they want through singular uses and memberships.
-              <br /><br />
-            Gym2Gym indexes independently owned fitness spaces and in-homes spaces to allow users the flexibility in choice and location.
+          Users have the option to tokenize physical or digital assets onto their own personal blockchain networks providing users with a vareity of features to help manage their assets and identity securely
             </>
           }
           cover="asset"
@@ -41,7 +39,7 @@ function Academy() {
             <div className="Edge-content-start">
             </div>
             <div className="Edge-content-end">
-              <div className="Edge-pagination color-grey">03 / 07</div>
+              <div className="Edge-pagination color-grey">03 / 09</div>
               <div className="Edge-pagination-icon" onClick={() => events.navigate(4)}>
                 <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#31AD94" />
               </div>

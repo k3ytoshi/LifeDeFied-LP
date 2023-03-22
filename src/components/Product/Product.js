@@ -23,15 +23,14 @@ function Product() {
 
       <Container className="Container-flex" clipped={false}>
       <Banner
-          text="Product Overview"
+          text="Product development"
           info={
             <>
-            Users have the ability to work out as much or little as they want through singular uses and memberships.
-              <br /><br />
-            Gym2Gym indexes independently owned fitness spaces and in-homes spaces to allow users the flexibility in choice and location.
+            The LifeDeFied platform will be launching the open beta and testnet in Q3 2023.
+            Sign up through the whitelisting form below to receive updates and early access
             </>
           }
-          cover="identity"
+          cover="product"
           textDark />
       </Container>
 
@@ -41,8 +40,8 @@ function Product() {
             <div className="Edge-content-start">
             </div>
             <div className="Edge-content-end">
-              <div className="Edge-pagination color-grey">03 / 07</div>
-              <div className="Edge-pagination-icon" onClick={() => events.navigate(4)}>
+              <div className="Edge-pagination color-grey">08 / 09</div>
+              <div className="Edge-pagination-icon" onClick={() => events.navigate(9)}>
                 <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#31AD94" />
               </div>
             </div>

@@ -26,12 +26,10 @@ function Trainer() {
 
         <Container className="Container-flex" clipped={false}>
         <Banner
-          text="List and Trade Your Assets"
+          text="Decentralized Marketplace"
           info={
             <>
-              Personal Trainers no longer have to search for space to work or train with their clients.
-              <br /><br />
-              They can book spaces based on the time, type of space and frequency. 
+             User, businesses and public networks have the option to list their tokenized assets and personal networks on a decentralized marketplace for all to access to utilize. 
             </>
           }
           cover="trainer"
@@ -44,7 +42,7 @@ function Trainer() {
             <div className="Edge-content-start">
             </div>
             <div className="Edge-content-end">
-              <div className="Edge-pagination color-grey">05 / 07</div>
+              <div className="Edge-pagination color-grey">05 / 09</div>
               <div className="Edge-pagination-icon sm-svg-green" onClick={() => events.navigate(6)}>
                 <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#31AD94" />
               </div>

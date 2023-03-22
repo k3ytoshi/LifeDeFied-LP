@@ -24,12 +24,10 @@ function Code() {
       
       <Container className="Container-flex" clipped={false}>
       <Banner
-          text="Secure Your Assets with Staking"
+          text="Staked Security"
           info={
             <>
-             Gym or health space owners earn more by renting out to new customers and providing memberships.
-              <br /><br />
-             Home or property owners can turn their gym and health spaces into their own personal small businesses.
+            User have the option to stake their tokenized assets back into the platform's state-of-the-art staking security solutions, allowing users to earn passive income and protect their investments on public and private blockchain networks.
 
             </>
           }
@@ -43,7 +41,7 @@ function Code() {
             <div className="Edge-content-start">
             </div>
             <div className="Edge-content-end">
-              <div className="Edge-pagination color-grey">04 / 07</div>
+              <div className="Edge-pagination color-grey">04 / 09</div>
               <div className="Edge-pagination-icon" onClick={() => events.navigate(5)}>
                 <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#31AD94" />
               </div>

@@ -11,7 +11,7 @@ function Slogan() {
       <div className="Slogan">
         <div className="Slogan-title">
           <div className="Slogan-content">
-            <span>Your Digital Asset Ecosystem with LifeDeFied</span>
+            <span>Welcome to LifeDeFied Blockchain Security</span>
           </div>
         </div>
         <div className="Page-down" onClick={() => events.navigate(2)}>

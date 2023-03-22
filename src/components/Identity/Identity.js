@@ -23,12 +23,10 @@ function Identity() {
 
       <Container className="Container-flex" clipped={false}>
       <Banner
-          text="Manage Your Identity"
+          text="Identity Management"
           info={
             <>
-            Users have the ability to work out as much or little as they want through singular uses and memberships.
-              <br /><br />
-            Gym2Gym indexes independently owned fitness spaces and in-homes spaces to allow users the flexibility in choice and location.
+           LifeDeFied's decentralized identity (DID) solutions provide enhanced security and privacy for users across their personal blockchains or local and governemnt leveled jurisdictions.
             </>
           }
           cover="identity"
@@ -41,8 +39,8 @@ function Identity() {
             <div className="Edge-content-start">
             </div>
             <div className="Edge-content-end">
-              <div className="Edge-pagination color-grey">03 / 07</div>
-              <div className="Edge-pagination-icon" onClick={() => events.navigate(4)}>
+              <div className="Edge-pagination color-grey">07 / 09</div>
+              <div className="Edge-pagination-icon" onClick={() => events.navigate(8)}>
                 <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#31AD94" />
               </div>
             </div>
